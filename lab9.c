@@ -118,7 +118,7 @@ int main(void)
         current->next = NULL;
         current->data = pRecords[i];
 
-        if(hashArr[index] = NULL)
+        if(hashArr[index] == NULL)
         {
             hashArr[index] = current;
         }
